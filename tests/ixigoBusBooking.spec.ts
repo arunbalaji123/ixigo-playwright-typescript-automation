@@ -12,7 +12,7 @@ import { BusPayloadType, BusSearchResponse, FilteredBus } from "../types/Bustype
 const BASE_URL:string = 'https://www.ixigo.com/';
 const AUTH_FILE:string= '../playwright/.auth/state.json';
 const Filepath:string = path.resolve(__dirname, '../testData/Passengers.xlsx');
-const Journey:string = "chn-pune";
+const Journey:string = "chn-ern";
 const passengerCount:number = 6;
 
 test( '@web Arun Bus section', async ({ browser }) => {

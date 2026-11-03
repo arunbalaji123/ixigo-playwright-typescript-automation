@@ -68,7 +68,7 @@ export class BusSearchPage {
     }
 
      async pageGoto():Promise<void>{
-        await this.page.goto('https://www.ixigo.com/buses/bus_search/Chennai/6/Bengaluru/7/30-10-2026/');
+        await this.page.goto('https://www.ixigo.com/buses/bus_search/Chennai/6/Bengaluru/7/10-11-2026/');
      }
      
     async verifyMissingOriginError():Promise<void> {
